@@ -1,0 +1,32 @@
+body {
+	display:block;
+}
+
+#tttview{
+	display: inline-block;
+	width: 360px;
+	
+}
+.row {
+    clear: both;
+    overflow:hidden;
+}
+
+.square{
+	float:left;
+    height: 119px;
+    width:119px;
+    cursor: pointer;
+	text-align: center;
+	font-size: 50px;
+	
+	padding-top: 30px;
+}
+
+.bottom{
+    border-bottom: 1px solid black;
+}
+.right {
+    border-right:1px solid black;
+}
+
